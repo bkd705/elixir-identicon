@@ -1,21 +1,16 @@
 # Identicon
 
-**TODO: Add description**
+Building identicon avatars similar to Github's default.
 
-## Installation
+Following the tutorial located on Udemy,
+[here](udemy.com/the-complete-elixir-and-phoenix-bootcamp-and-tutorial/)
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `identicon` to your list of dependencies in `mix.exs`:
+## Usage
 
 ```elixir
-def deps do
-  [
-    {:identicon, "~> 0.1.0"}
-  ]
-end
+$ iex -S mix
+iex> Identicon.main("bkd705")
+:ok
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/identicon](https://hexdocs.pm/identicon).
-
+Output image will be located at <rootDir>/bkd705.png
